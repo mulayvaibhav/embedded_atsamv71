@@ -6,6 +6,7 @@
 int main(void) {
     NVIC_EnableIRQ( UART0_IRQn );
 
+
     while(1) {
     
         NVIC_SetPendingIRQ( UART0_IRQn );
