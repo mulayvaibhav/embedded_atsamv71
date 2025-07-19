@@ -1,0 +1,26 @@
+# Ignore all build outputs
+/build/
+/build/*
+
+# Optionally ignore only `build/obj/` if you still want other folders
+# /build/obj/
+
+# CMake-generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Object and binary files
+*.o
+*.obj
+*.elf
+*.map
+*.bin
+*.log
+
+# Backup & temp files
+*~
+*.swp
+*.bak
